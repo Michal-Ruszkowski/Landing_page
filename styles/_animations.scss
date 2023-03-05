@@ -1,0 +1,88 @@
+.moveFromTopAndBounce {
+    animation: moveFromTopAndBounce 1s ease-out;
+}
+
+.moveTextFromRight {
+    animation: moveTextFromRight 1s ease-out;
+}
+
+.moveNumberFromDown {
+    animation: moveNumberFromDown 1s ease-out;
+}
+
+.moveNumberFromRight {
+    animation: moveNumberFromRight 1s ease-out;
+}
+
+.moveNumberFromLeft {
+    animation: moveNumberFromLeft 1s ease-out;
+}
+
+@keyframes moveFromTopAndBounce {
+    0% {
+        transform: translateY(-37vw);
+    }
+    60% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-30px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes moveTextFromRight {
+    0% {
+        transform: translateX(50vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveNumberFromRight {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveNumberFromLeft {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveNumberFromDown {
+    0% {
+        transform: translateY(100vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

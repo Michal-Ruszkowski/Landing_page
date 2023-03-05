@@ -1,0 +1,119 @@
+.section-4 {
+    background: $color-main;
+    background: linear-gradient(90deg, $color-main 0%, $color-main 80%, $color-white 80%, $color-white 100%);
+
+    @media screen and (max-width:768px) {
+        background: linear-gradient(0deg, $color-main 0%, $color-main 95.33%, $color-white 95.33%, $color-white 100%);
+    }
+}
+
+.section-4__imgContainer {
+    display:flex;
+    margin:0 0 12.74vw auto;
+    width: fit-content;
+
+    @media screen and (max-width:768px) {
+        margin-bottom:0;
+        background-color: $color-white;
+        border-bottom: 21.25vw solid;
+        border-image: linear-gradient(to right, $color-main 77.97%, $color-white 22.03%) 1;
+        width:90.64vw;
+        height:100%
+    }
+}
+
+.section-4__img {
+    width:37.9vw;
+    height:60.48vw;
+
+    @media screen and (max-width:768px) {
+        width:53.41vw;
+        height:84.99vw;
+    }
+}
+
+.section-4__img--wider {
+    width:40.32vw
+}
+
+.section-4__slider {
+    display:flex;
+    width:100vw;
+    height:39vw;
+    overflow: hidden;
+
+    @media screen and (max-width:768px) {
+        width:180.44vw;
+        height:70.37vw;
+        background: $color-main;
+        background: linear-gradient(0deg, $color-main 0%, $color-main 77.97%, $color-white 77.97%, $color-white 100%);
+    }
+}
+
+.section-4__slide {
+    width:100vw;
+    height:100%;
+
+    @media screen and (max-width:768px) {
+        width:180.44vw;
+    }
+}
+
+.section-4__bottom {
+    background-color: $color-white;
+    padding-bottom: 14.84vw;
+    text-align: center;
+
+    @media screen and (max-width:768px) {
+        padding: 28.85vw 0 19.49vw;
+    }
+}
+
+.section-4__range {
+    width: 35%;
+    height: 1.45vw;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border:none;
+    background: $color-range;
+    border-radius: 10px;
+    padding: 0;
+    margin: 7.09vw auto 0;
+
+    @media screen and (max-width:768px) {
+        width: 52.83vw;
+        height: 2.34vw;
+        margin: 21.25vw auto 0;
+    }
+}
+
+.section-4__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 4.03vw;
+    height: 4.03vw;
+    background: $color-range-dot;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+
+    @media screen and (max-width:768px) {
+        width: 6.04vw;
+        height: 6.04vw;
+    }
+}
+
+.section-4__range::-moz-range-thumb {
+    width: 4.03vw;
+    height: 4.03vw;
+    background: $color-range-dot;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+
+    @media screen and (max-width:768px) {
+        width: 6.04vw;
+        height: 6.04vw;
+    }
+}

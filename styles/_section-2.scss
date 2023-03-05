@@ -1,0 +1,29 @@
+.section-2 {
+    position:relative;
+    height:96.45vw;
+    padding:33.55vw 0 9.19vw;
+    background: $color-white;
+    background: linear-gradient(180deg, $color-white 0%, $color-white 43.6%, $color-main 43.6%, $color-main 100%);
+
+    @media screen and (max-width:768px) {
+        height:125.53vw;
+        padding:33.55vw 0 9.19vw;
+        background: $color-white;
+        background: linear-gradient(180deg, $color-white 0%, $color-white 43.84%, $color-main 43.84%, $color-main 100%);
+    }
+}
+
+.section-2__img {
+    position:absolute;
+    width:49.84vw;
+    height:74.68vw;
+    top:12.9vw;
+    left:9.9vw;
+
+    @media screen and (max-width:768px) {
+        width:60.62vw;
+        height:93.96vw;
+        top:18.9vw;
+        left:0
+    }
+}

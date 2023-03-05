@@ -1,0 +1,73 @@
+@import 'variables';
+
+.checkeredContainer {
+    width: 27.9vw;
+    height: 13.02vw;
+    margin: 0 auto;
+    background-image: url('../images/kratka.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.checkeredContainer--bigger {
+    width:46.45vw;
+    height:21.61vw;
+    margin-bottom:34.84vw;
+
+    @media screen and (max-width:768px) {
+        width:60.62vw;
+        height:28.07vw;
+        margin-left:0
+    }
+
+    @media screen and (max-width:500px) {
+        width:60.62vw;
+        height:28.07vw;
+        margin-left:auto;
+        margin-right:0
+    }
+}
+
+.checkeredContainer--animated {
+    margin-top:17.58vw;
+
+    @media screen and (max-width:768px) {
+        width:62.57vw;
+        height:28.85vw;
+        margin-top:12.09vw;
+        padding-top:1.5vw;
+    }
+}
+
+.checkeredContainer__text--yellow {
+    font-size: 5vw;
+    font-weight:600;
+    margin-left:-6%;
+    color:$color-yellow;
+
+    @media screen and (max-width:768px) {
+        font-size: 12vw;
+        margin-left:-6%;
+        line-height: 1;
+    }
+}
+
+.checkeredContainer__text--blue {
+    font-size: 1.6vw;
+    font-weight:600;
+    margin-left:30.05vw;
+    color:$color-text-blue;
+    width:70%;
+
+    @media screen and (max-width:768px) {
+        display:none
+    }
+}
+
+@media screen and (max-width:768px) {
+    .checkeredContainer--second {
+        width:63.35vw;
+        height:29.63vw;
+        margin: 11.8vw auto 0 17vw
+    }
+}

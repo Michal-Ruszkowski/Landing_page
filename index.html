@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <picture class="section-1__img">
+                <source media="(min-width:769px)" srcset="images/1.png" />
+                <source srcset="images/1-mobile.png" />
+                <img class="section-1__img" src="images/1.png" alt="girl" />
+            </picture>
+            <div class="section-1__center">
+                <p class="section-1__text section-1__text--vertical">AW21</p>
+                <div class="checkeredContainer checkeredContainer--animated">
+                    <p class="checkeredContainer__text checkeredContainer__text--yellow">Back to school</p>
+                </div>
+                <div class="section-1__buttonsContainer">
+                    <a class="button" href="#">KOLEKCJA DZIEWCZĘCA</a>
+                    <a class="button" href="#">KOLEKCJA CHŁOPIĘCA</a>
+                </div>
+            </div>
+            <img class="section-1__img-2" src="images/2.png" alt="girls" />
+        </div>
+        <div class="section-2">
+            <div class="checkeredContainer checkeredContainer--second">
+                <p class="checkeredContainer__text checkeredContainer__text--blue">Powrót do szkoły jeszcze nigdy nie był tak ekscytujący!</p>
+            </div>
+            <img class="section-2__img" src="images/3.png" alt="girls" />
+        </div>
+        <div class="section-3">
+            <p class="section-3__number section-3__number--top">2</p>
+            <p class="section-3__number section-3__number--left">7</p>
+            <p class="section-3__number section-3__number--bottom">1</p>
+            <div>
+                <div class="section-3__slider">
+                    <img class="section-3__img" src="images/4.png" alt="girls" />
+                    <img class="section-3__img" src="images/5.png" alt="girls" />
+                    <img class="section-3__img" src="images/6.png" alt="girls" />
+                </div>
+                <div class="section-3_dots">
+                    <div id="dot-1" class="section-3__dot section-3__dot--active"></div>
+                    <div id="dot-2" class="section-3__dot"></div>
+                    <div id="dot-3" class="section-3__dot"></div>
+                </div>
+            </div>
+            <div class="section-3__right">
+                <p class="section-3__text">Nowy rok szkolny to nowe znajomości, nowe umiejętności i nowe przygody! A&nbsp;te wymagają ubrań do zadań specjalnych, które są:</p>
+                <div class="section-3__article section-3__article--first">
+                    <p class="section-3__text section-3__text--title">DOPASOWANE</p>
+                    <p class="section-3__text section-3__text--small">przede wszystkim do&nbsp;osobowości</p>
+                </div>
+                <div class="section-3__article section-3__article--second">
+                    <p class="section-3__text section-3__text--title">WYGODNE</p>
+                    <p class="section-3__text section-3__text--small">w szkolnej ławce, na przerwie i na boisku</p>
+                </div>
+                <div class="section-3__article section-3__article--third">
+                    <p class="section-3__text section-3__text--title">WYTRZYMAŁE</p>
+                    <p class="section-3__text section-3__text--small">przetrwają zarówno obóz sportowy, jak i eksperymenty na lekcji chemii</p>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="section-4__imgContainer">
+                <img class="section-4__img" src="images/7.png" alt="girls" />
+                <img class="section-4__img section-4__img--wider" src="images/8.png" alt="girls" />
+            </div>
+            <div class="section-4__bottom">
+                <div class="section-4__slider">
+                    <img class="section-4__slide" src="images/9.png" alt="girls"/>
+                    <img class="section-4__slide" src="images/9.png" alt="girls"/>
+                </div>
+                <input class="section-4__range" type="range" min="0" max="100" value="0" />
+            </div>
+        </div>
+        <div class="section-5">
+            <img class="section-5__img--big" src="images/10.png" alt="boys"/>
+            <div class="section-5__flex">
+                <div class="section-5__left">
+                    <img class="section-5__imgLeft" src="images/11.png" alt="boys"/>
+                    <p class="section-5__text">Zobacz nową kolekcję</p>
+                    <a class="button button--section5" href="#">KOLEKCJA DZIEWCZĘCA</a>
+                    <a class="button button--section5" href="#">KOLEKCJA CHŁOPIĘCA</a>
+                </div>
+                <div class="section-5__right">
+                    <div class="checkeredContainer checkeredContainer--bigger"></div>
+                    <img class="section-5__imgRight" src="images/12.png" alt="boy"/>
+                    <div class="section-5__blackTable"><canvas class="section-5__canvas"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/section-3.js"></script>
+    <script src="scripts/section-4.js"></script>
+    <script src="scripts/section-5.js"></script>
+</body>
+</html>
